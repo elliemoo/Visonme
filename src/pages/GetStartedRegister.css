@@ -1,0 +1,284 @@
+.frame-item {
+  width: 1440px;
+  height: 755px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.registration-frame {
+  width: 203px;
+  height: 15px;
+  position: absolute;
+  margin: 0 !important;
+  top: 129px;
+  right: 618px;
+  background: linear-gradient(90.54deg, #139ebc, #aa1ecd);
+  z-index: 1;
+}
+.sign-in,
+.visionme {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+}
+.visionme {
+  height: 48px;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.sign-in {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-font);
+  color: var(--color-white);
+  text-align: center;
+}
+.sign-in-text {
+  width: 196px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-lg) var(--padding-xl)
+    var(--padding-xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.email-address,
+.first-name,
+.last-name-frame,
+.sign-in-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.last-name-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.email-address,
+.first-name {
+  flex-direction: column;
+}
+.email-address {
+  align-self: stretch;
+  gap: var(--gap-14xl);
+}
+.first-name {
+  width: 204px;
+  padding: 9px 0 0;
+  box-sizing: border-box;
+  min-width: 204px;
+}
+.register1 {
+  margin: 0;
+}
+.register {
+  height: 50px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-font);
+  color: var(--color-white);
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.create-password-text {
+  height: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.create-password-frame {
+  cursor: pointer;
+  border: 2px solid var(--color-cadetblue);
+  padding: 22px 66px 0 65px;
+  background-color: var(--color-darkslategray-400);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.last-name {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-font);
+  color: var(--color-white);
+  text-align: left;
+}
+.back-button-frame {
+  border: 1px solid var(--color-dimgray-100);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 40px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 120px;
+}
+.confirm-password-text,
+.continue-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.continue-text {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-2xs);
+  gap: var(--gap-5xs);
+}
+.confirm-password-text {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-14xl);
+  min-width: 145px;
+}
+.first-name-email-address-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+}
+.confirmation-frame,
+.input-frame {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.input-frame {
+  border: 1px solid var(--color-dimgray-100);
+  outline: 0;
+  background-color: transparent;
+  height: 40px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  min-width: 245px;
+}
+.confirmation-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-xs);
+}
+.confirm-password {
+  width: 297px;
+  height: 16px;
+  position: absolute;
+  margin: 0 !important;
+  right: -85px;
+  bottom: 218px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-font);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.first-frame,
+.register-label {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.register-label {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-5xs);
+}
+.first-frame {
+  margin: 0;
+  width: 435px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-400);
+  border: 2px solid var(--color-dimgray-100);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-78xl);
+  position: relative;
+  gap: var(--gap-5xs);
+  z-index: 3;
+}
+.get-started-register,
+.rectangle-group {
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: flex;
+}
+.rectangle-group {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) var(--padding-8xl) var(--padding-90xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-font);
+}
+.get-started-register {
+  width: 100%;
+  height: 744px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .visionme {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .first-frame,
+  .rectangle-group {
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .rectangle-group {
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-52xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .visionme {
+    font-size: var(--font-size-10xl);
+  }
+  .sign-in {
+    font-size: var(--font-size-xl);
+  }
+  .first-name {
+    flex: 1;
+  }
+  .register {
+    font-size: var(--font-size-xl);
+  }
+  .first-name-email-address-frame {
+    flex-wrap: wrap;
+  }
+  .get-started-register {
+    height: auto;
+  }
+}

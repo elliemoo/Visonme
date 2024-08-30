@@ -1,0 +1,207 @@
+.frame-inner {
+  width: 1440px;
+  height: 755px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.f-r-a-m-e {
+  width: 203px;
+  height: 15px;
+  position: absolute;
+  margin: 0 !important;
+  top: 129px;
+  right: 618px;
+  background: linear-gradient(90.54deg, #139ebc, #aa1ecd);
+  z-index: 1;
+}
+.visionme1 {
+  margin: 0;
+  height: 48px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.questions1 {
+  margin: 0;
+}
+.questions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.f-r-a-m-e2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-400);
+  border: 2px solid var(--color-cadetblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 59px var(--padding-lg) 55px;
+}
+.last-name1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-font);
+  color: var(--color-white);
+  text-align: left;
+}
+.c-r-e-a-t-e-p-a-s-s-w-o-r-d {
+  border: 1px solid var(--color-dimgray-100);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 40px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 120px;
+}
+.l-a-s-t-n-a-m-e,
+.n-a-m-e-a-n-d-e-m-a-i-l {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.l-a-s-t-n-a-m-e {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 130px;
+}
+.n-a-m-e-a-n-d-e-m-a-i-l {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-2xs);
+}
+.f-r-a-m-e5 {
+  border: 1px solid var(--color-dimgray-100);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 40px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 245px;
+}
+.f-r-a-m-e3,
+.f-r-a-m-e4 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.f-r-a-m-e4 {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 0 2px;
+  gap: var(--gap-5xs);
+}
+.f-r-a-m-e3 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-5xs);
+}
+.confirm-password1 {
+  width: 297px;
+  height: 16px;
+  position: absolute;
+  margin: 0 !important;
+  right: -85px;
+  bottom: 218px;
+  font-size: var(--font-size-lg);
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.f-r-a-m-e1 {
+  width: 435px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-400);
+  border: 2px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-78xl);
+  position: relative;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+  z-index: 3;
+  text-align: right;
+  font-size: var(--font-size-6xl);
+}
+.personal-information,
+.rectangle-container {
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: flex;
+}
+.rectangle-container {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) var(--padding-8xl) var(--padding-90xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-font);
+}
+.personal-information {
+  width: 100%;
+  height: 744px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .visionme1 {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .f-r-a-m-e1,
+  .rectangle-container {
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .rectangle-container {
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-52xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .visionme1 {
+    font-size: var(--font-size-10xl);
+  }
+  .questions {
+    font-size: var(--font-size-xl);
+  }
+  .f-r-a-m-e1 {
+    gap: var(--gap-14xl);
+  }
+  .personal-information {
+    height: auto;
+  }
+}
